@@ -1,0 +1,33 @@
+{
+  "name": "static-server-template",
+  "version": "1.0.0",
+  "description": "static server template with express",
+  "main": "server/index.js",
+  "scripts": {
+    "clean": "git clean -xdff",
+    "dev:server": "\"node_modules/.bin/nodemon\" server --port=9040",
+    "serve": "node server --port=9040"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohseenrm/static-server-template.git"
+  },
+  "keywords": [
+    "static",
+    "server",
+    "template",
+    "express"
+  ],
+  "author": "Mohseen Mukaddam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mohseenrm/static-server-template/issues"
+  },
+  "homepage": "https://github.com/mohseenrm/static-server-template#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "nodemon": "^1.12.1",
+    "yargs": "^10.0.3"
+  }
+}
